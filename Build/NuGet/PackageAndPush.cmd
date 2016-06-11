@@ -1,6 +1,6 @@
 @echo off
 echo Creating NuGet package
-set Name=CommandArguments
+set Name=Numerics
 set Version=1.0.0
 
 echo.
