@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Numerics</id>
-    <version>1.0.0</version>
+    <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>Numerics is a library to support advanced numeric operations.</description>
     <tags>Numerics</tags>
