@@ -5,7 +5,7 @@
     <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>Numerics is a library to support advanced numeric operations.</description>
-    <tags>Numerics</tags>
+    <tags>math numerics</tags>
     <iconUrl>https://raw.githubusercontent.com/skthomasjr/Numerics/master/Build/NuGet/Package.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/Numerics/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/Numerics</projectUrl>
