@@ -1,13 +1,21 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApplication1
+namespace Numerics
 {
+    /// <summary>
+    /// A range of numbers.
+    /// </summary>
     public struct Range
     {
         private readonly long length;
         private readonly long start;
         private readonly long end;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Range"/> struct.
+        /// </summary>
+        /// <param name="length">The length.</param>
+        /// <param name="index">The index.</param>
         public Range(long length, long index)
         {
             this.length = length;
@@ -15,8 +23,17 @@ namespace ConsoleApplication1
             this.end = index + length - 1;
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Range"/> struct.
+        /// </summary>
+        /// <param name="length">The length.</param>
         public Range(long length) : this(length, 0) { }
 
+        /// <summary>
+        /// Splits the range.
+        /// </summary>
+        /// <param name="count">The count of ranges to split into.</param>
+        /// <returns>IEnumerable&lt;Range&gt;.</returns>
         public IEnumerable<Range> Split(long count)
         {
             if (count <= 0) return null;
@@ -61,6 +78,10 @@ namespace ConsoleApplication1
             return ranges;
         }
 
+        /// <summary>
+        /// Returns a <see cref="System.String" /> that represents this instance.
+        /// </summary>
+        /// <returns>A <see cref="System.String" /> that represents this instance.</returns>
         public override string ToString()
         {
             return $"{start} -> {end} [{length}]";

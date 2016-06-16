@@ -7,9 +7,21 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Numerics", "Numerics\Numeri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Net461", "Numerics.Net461\Numerics.Net461.csproj", "{ABAFD8A1-0581-4961-8FFC-FA85B6BA557E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Net46", "Numerics.Net46\Numerics.Net46.csproj", "{B074DB8E-0549-4102-9419-2D3387566804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Net45", "Numerics.Net45\Numerics.Net45.csproj", "{26DC4DA9-7EB4-49FF-9E58-889783682971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Net40", "Numerics.Net40\Numerics.Net40.csproj", "{4B72DFF5-C2B5-497E-BBB1-94C442249A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics.Net35", "Numerics.Net35\Numerics.Net35.csproj", "{09CBFEBB-0B9F-4BCF-82CF-2CA6B5E859E8}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Numerics\Numerics.projitems*{b074db8e-0549-4102-9419-2d3387566804}*SharedItemsImports = 4
 		Numerics\Numerics.projitems*{999cf341-07b9-4cd2-b412-00f54ddd1b04}*SharedItemsImports = 13
+		Numerics\Numerics.projitems*{26dc4da9-7eb4-49ff-9e58-889783682971}*SharedItemsImports = 4
+		Numerics\Numerics.projitems*{4b72dff5-c2b5-497e-bbb1-94c442249a2f}*SharedItemsImports = 4
+		Numerics\Numerics.projitems*{09cbfebb-0b9f-4bcf-82cf-2ca6b5e859e8}*SharedItemsImports = 4
 		Numerics\Numerics.projitems*{abafd8a1-0581-4961-8ffc-fa85b6ba557e}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +33,22 @@ Global
 		{ABAFD8A1-0581-4961-8FFC-FA85B6BA557E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAFD8A1-0581-4961-8FFC-FA85B6BA557E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAFD8A1-0581-4961-8FFC-FA85B6BA557E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B074DB8E-0549-4102-9419-2D3387566804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B074DB8E-0549-4102-9419-2D3387566804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B074DB8E-0549-4102-9419-2D3387566804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B074DB8E-0549-4102-9419-2D3387566804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DC4DA9-7EB4-49FF-9E58-889783682971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DC4DA9-7EB4-49FF-9E58-889783682971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DC4DA9-7EB4-49FF-9E58-889783682971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DC4DA9-7EB4-49FF-9E58-889783682971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B72DFF5-C2B5-497E-BBB1-94C442249A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B72DFF5-C2B5-497E-BBB1-94C442249A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B72DFF5-C2B5-497E-BBB1-94C442249A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B72DFF5-C2B5-497E-BBB1-94C442249A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CBFEBB-0B9F-4BCF-82CF-2CA6B5E859E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CBFEBB-0B9F-4BCF-82CF-2CA6B5E859E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CBFEBB-0B9F-4BCF-82CF-2CA6B5E859E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CBFEBB-0B9F-4BCF-82CF-2CA6B5E859E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
