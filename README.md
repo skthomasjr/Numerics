@@ -1,5 +1,5 @@
 # Numerics
-[![Build](https://ci.appveyor.com/api/projects/status/e1rlsqt6irfc0nwi?svg=true)](https://ci.appveyor.com/project/skthomasjr/learning)
+[![Build](https://ci.appveyor.com/api/projects/status/xr8gf9exgnuq9a71?svg=true)](https://ci.appveyor.com/project/skthomasjr/learning)
 [![Release](https://img.shields.io/github/release/skthomasjr/Learning.svg?maxAge=2592000)](https://github.com/skthomasjr/Learning/releases)
 [![NuGet](https://img.shields.io/nuget/v/Learning.NET.svg)](https://www.nuget.org/packages/Learning.NET)
 [![License](https://img.shields.io/github/license/skthomasjr/Learning.svg?maxAge=2592000)](LICENSE.md)
