@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Numerics</id>
+    <id>Numerics.NET</id>
     <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
-    <description>Numerics is a library to support advanced numeric operations.</description>
+    <description>Numerics.NET is a library to support advanced and obscure numeric operations.</description>
     <tags>math numerics</tags>
     <iconUrl>https://raw.githubusercontent.com/skthomasjr/Numerics/master/Build/NuGet/Package.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/Numerics/master/LICENSE.md</licenseUrl>
