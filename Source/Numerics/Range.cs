@@ -3,7 +3,7 @@
 namespace Numerics
 {
     /// <summary>
-    /// A range of numbers.
+    /// A range of 64-bit integers.
     /// </summary>
     public struct Range
     {
