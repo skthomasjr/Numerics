@@ -1,4 +1,4 @@
-# Numerics
+# Numerics.NET
 
 [![Build](https://ci.appveyor.com/api/projects/status/xr8gf9exgnuq9a71?svg=true)](https://ci.appveyor.com/project/skthomasjr/numerics)
 [![Release](https://img.shields.io/github/release/skthomasjr/Numerics.svg?maxAge=2592000)](https://github.com/skthomasjr/Numerics/releases)
