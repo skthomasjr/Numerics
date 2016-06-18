@@ -1,4 +1,6 @@
 # Numerics
+
+[![Join the chat at https://gitter.im/skthomasjr/Numerics](https://badges.gitter.im/skthomasjr/Numerics.svg)](https://gitter.im/skthomasjr/Numerics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build](https://ci.appveyor.com/api/projects/status/xr8gf9exgnuq9a71?svg=true)](https://ci.appveyor.com/project/skthomasjr/numerics)
 [![Release](https://img.shields.io/github/release/skthomasjr/Numerics.svg?maxAge=2592000)](https://github.com/skthomasjr/Numerics/releases)
 [![NuGet](https://img.shields.io/nuget/v/Numerics.svg)](https://www.nuget.org/packages/Numerics)
