@@ -23,7 +23,7 @@ Debug.WriteLine(myRanges.First().Length);
 ```
 
 ##### Enumerate Int32 or Int64
-Provides "foreach" or "linq" enumeration without using "for" syntax.
+Provides "foreach" or "linq" style enumeration without using "for" syntax.
 ```c#
 foreach (var index in 1000.AsEnumerable())
 {
