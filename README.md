@@ -16,6 +16,9 @@ var startRange = new Range(1000);
 
 // Split the range into 5 equal ranges.
 var myRanges range.Split(5);
+Debug.WriteLine(myRanges.First().Start);
+Debug.WriteLine(myRanges.First().Stop);
+Debug.WriteLine(myRanges.First().Length);
 ```
 
 Enumerate Int32 or Int64
