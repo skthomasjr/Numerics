@@ -8,3 +8,16 @@
 [![Join the chat at https://gitter.im/skthomasjr/Numerics](https://badges.gitter.im/skthomasjr/Numerics.svg)](https://gitter.im/skthomasjr/Numerics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Numerics.NET is a library to support obscure operations and convenience methods pertaining to numbers.
+
+Number Ranges
+```c#
+// Create a range of 1000.
+var startRange = new Range(1000);
+
+// Split the range into 5 equal ranges.
+var myRanges range.Split(5);
+```
+
+Enumerate Int32 or Int64
+```c#
+```
