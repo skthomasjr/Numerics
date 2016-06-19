@@ -20,4 +20,8 @@ var myRanges range.Split(5);
 
 Enumerate Int32 or Int64
 ```c#
+foreach (var index in 1000.AsEnumerable())
+{
+  Debug.WriteLine(index);
+}
 ```
