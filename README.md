@@ -10,6 +10,7 @@
 Numerics.NET is a library to support obscure operations and convenience methods pertaining to numbers.
 
 ##### Int64 Ranges
+Allows grouping number ranges into smaller, more consumable, ranges.
 ```c#
 // Create a range of 1000.
 var startRange = new Range(1000);
@@ -22,6 +23,7 @@ Debug.WriteLine(myRanges.First().Length);
 ```
 
 ##### Enumerate Int32 or Int64
+Provides "foreach" or "linq" enumeration without using "for" syntax.
 ```c#
 foreach (var index in 1000.AsEnumerable())
 {
