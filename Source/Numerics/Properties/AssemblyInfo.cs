@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Numerics")]
-[assembly: AssemblyDescription("Numerics.NET is a library to support advanced and obscure numeric operations.")]
+[assembly: AssemblyDescription("Numerics.NET is a library to support obscure operations and convenience methods pertaining to numbers.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Scott Keith Thomas, Jr.")]
 [assembly: AssemblyProduct("Numerics")]

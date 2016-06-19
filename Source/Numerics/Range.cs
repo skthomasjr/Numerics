@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Numerics
 {
@@ -7,10 +8,6 @@ namespace Numerics
     /// </summary>
     public struct Range
     {
-        private readonly long length;
-        private readonly long start;
-        private readonly long end;
-
         /// <summary>
         /// Initializes a new instance of the <see cref="Range"/> struct.
         /// </summary>
@@ -18,9 +15,9 @@ namespace Numerics
         /// <param name="index">The index.</param>
         public Range(long length, long index)
         {
-            this.length = length;
-            this.start = index;
-            this.end = index + length - 1;
+            Length = length;
+            Start = index;
+            End = index + length - 1;
         }
 
         /// <summary>
@@ -28,6 +25,24 @@ namespace Numerics
         /// </summary>
         /// <param name="length">The length.</param>
         public Range(long length) : this(length, 0) { }
+
+        /// <summary>
+        /// Gets the start.
+        /// </summary>
+        /// <value>The start.</value>
+        public long Start { get; }
+
+        /// <summary>
+        /// Gets the end.
+        /// </summary>
+        /// <value>The end.</value>
+        public long End { get; }
+
+        /// <summary>
+        /// Gets the length.
+        /// </summary>
+        /// <value>The length.</value>
+        public long Length { get; }
 
         /// <summary>
         /// Splits the range.
@@ -38,15 +53,15 @@ namespace Numerics
         {
             if (count <= 0) return null;
 
-            var currentStart = start;
-            var newCount = length;
+            var currentStart = Start;
+            var newCount = Length;
 
             long rangeCount;
             long unprocessedRangeCount;
-            if (length / count == 0)
+            if (Length / count == 0)
             {
-                rangeCount = length;
-                unprocessedRangeCount = length;
+                rangeCount = Length;
+                unprocessedRangeCount = Length;
             }
             else
             {
@@ -79,12 +94,24 @@ namespace Numerics
         }
 
         /// <summary>
+        /// Enumerates between the start and end of the range.
+        /// </summary>
+        /// <returns>IEnumerable&lt;System.Int64&gt;.</returns>
+        public IEnumerable<long> AsEnumerable()
+        {
+            for (var current = Start; current <= End; ++current)
+            {
+                yield return current;
+            }
+        }
+
+        /// <summary>
         /// Returns a <see cref="System.String" /> that represents this instance.
         /// </summary>
         /// <returns>A <see cref="System.String" /> that represents this instance.</returns>
         public override string ToString()
         {
-            return $"{start} -> {end} [{length}]";
+            return $"{Start} -> {End} [{Length}]";
         }
     }
 }

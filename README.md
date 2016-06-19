@@ -7,4 +7,4 @@
 [![Author](https://img.shields.io/badge/author-Scott%20K.%20Thomas%2C%20Jr.-blue.svg?maxAge=2592000)](https://www.linkedin.com/in/skthomasjr)
 [![Join the chat at https://gitter.im/skthomasjr/Numerics](https://badges.gitter.im/skthomasjr/Numerics.svg)](https://gitter.im/skthomasjr/Numerics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Numerics.NET is a library to support advanced and obscure numeric operations.
+Numerics.NET is a library to support obscure operations and convenience methods pertaining to numbers.
