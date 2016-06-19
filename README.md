@@ -9,7 +9,7 @@
 
 Numerics.NET is a library to support obscure operations and convenience methods pertaining to numbers.
 
-### Number Ranges
+##### Number Ranges
 ```c#
 // Create a range of 1000.
 var startRange = new Range(1000);
@@ -21,7 +21,7 @@ Debug.WriteLine(myRanges.First().Stop);
 Debug.WriteLine(myRanges.First().Length);
 ```
 
-### Enumerate Int32 or Int64
+##### Enumerate Int32 or Int64
 ```c#
 foreach (var index in 1000.AsEnumerable())
 {
